@@ -1,0 +1,10 @@
+This looks like the 'advance search' in v5.1 as well is not able to be scoped manually in the search.
+Ex.
+select pull down menu on search field top right corner select 'Advance Search'.
+You are redirected to the advance search page
+There is no option to set scope on the search, on the top left corner you see options
+If advance search is done from the dashboard, it allows you to select scope "All Sites" or "repository" 
+If advance search is done from the dashboard, it allows you to select scope "Current Site" or "All Sites" or "repository" 
+But does not allow you to set the scope of the search to a specific folder in repository.
+
+where as this effort of mine will allows user to hit a specific target folder when you search in repository.
