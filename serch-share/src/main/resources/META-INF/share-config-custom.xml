@@ -1,0 +1,36 @@
+<alfresco-config>
+
+	<config evaluator="model-type" condition="cm:content">
+		<forms>
+			<!-- Search form -->
+			<form id="search">
+				<field-visibility>
+					<show id="space" force="true" />
+				</field-visibility>
+				<appearance>
+					<field id="space" label-id="form.label.searchin">
+						<control template="/adsearch/components/form/controls/spaceAjax.ftl" />
+					</field>
+				</appearance>
+			</form>
+		</forms>
+	</config>
+
+	<config evaluator="model-type" condition="cm:folder">
+		<forms>
+			<!-- Search form -->
+			<form id="search">
+				<field-visibility>
+					<show id="space" force="true" />
+				</field-visibility>
+				<appearance>
+					<field id="space" label-id="form.label.searchin">
+						<control template="/adsearch/components/form/controls/spaceAjax.ftl" />
+					</field>
+				</appearance>
+			</form>
+		</forms>
+	</config>
+
+
+</alfresco-config>

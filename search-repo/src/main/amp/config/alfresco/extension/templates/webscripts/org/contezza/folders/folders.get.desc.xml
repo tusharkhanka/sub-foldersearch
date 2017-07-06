@@ -1,0 +1,10 @@
+<webscript>
+  <shortname>Folders suggest - Advanced search control</shortname>
+  <description></description>
+  <url>/contezza/advsearch-folders?query={query}</url>
+  <authentication>user</authentication>
+  <format default="json">any</format>
+  <cache>
+    <never>true</never>
+  </cache>
+</webscript>
