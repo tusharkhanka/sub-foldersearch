@@ -57,7 +57,7 @@ function main()
    var repoconfig = config.scoped['Search']['search'].getChildValue('repository-search');
 
    // config override can force repository search on/off
-   model.searchScope = siteId || "all_sites" || "repo" ;
+   model.searchScope = siteId || "all_sites" ;
    //model.searchSpace = "{container}" ;
    model.siteId = siteId;
    model.searchForms = searchForms;
